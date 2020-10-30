@@ -32,7 +32,6 @@ services:
     restart: unless-stopped
     volumes:
       - mongodb-data:/data/db
-    network_mode: host
 
     # Uncomment to change startup options
     # environment:
